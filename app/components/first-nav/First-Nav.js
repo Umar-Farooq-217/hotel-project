@@ -3,7 +3,7 @@ import Image from 'next/image'
 import '../../globals.css'
 export default function FirstNav() {
   return (
-    <div className='bg-[#474747] flex justify-between text-white text-sm px-[60px] nav'>
+    <div className='bg-[#474747] flex justify-between text-white text-sm px-20 nav'>
     <div className='flex py-1'>
     <div className='flex justify-center items-center '>  <Image className='mr-1' src="/phone.png" width={15} height={0}  />   <p>03486596201</p>                  </div>
     <div className='flex justify-center items-center ml-5 '>       <Image className='mr-1' src="/Icon.png" width={15} height={15}  />   <p>uf29664@gmail.com</p>              </div>
