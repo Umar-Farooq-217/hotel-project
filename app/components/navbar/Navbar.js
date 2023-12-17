@@ -13,7 +13,7 @@ export default function Navbar() {
     setShow(!show);
   };
   return (
-    <div className='flex justify-between pt-5 mx-20 navbar-div'>
+    <div className='flex justify-between pt-5 pl-20 navbar-div'>
     <div className='flex  justify-center items-center umar '> 
     <Image src="/Vector.jpg" width={50} height={60} />
     <button><Link href='/home'><h1 className='font-semibold font-serif text-3xl '>Umar Farooq</h1></Link></button>
