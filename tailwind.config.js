@@ -13,6 +13,14 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
+    screens: {
+      'sm': '500px', // Small screens (default)
+      'md': '768px', // Medium screens (default)
+      'lg': '1024px', // Large screens (default)
+      'xl': '1280px', // Extra-large screens
+      // You can define your own breakpoints as needed
+    },
+
     
   },
   plugins: [],
