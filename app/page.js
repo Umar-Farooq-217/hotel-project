@@ -105,6 +105,7 @@ export default function Home() {
 <p className='pl-6'>Delivery within 30 minutes</p>
 </div>
 
+<div></div>
 
 </div>
 
