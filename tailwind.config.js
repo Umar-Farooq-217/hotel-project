@@ -14,8 +14,8 @@ module.exports = {
       },
     },
     screens: {
-      'sm': '500px', // Small screens (default)
-      'md': '768px', // Medium screens (default)
+      'sm': '400px', // Small screens (default)
+      'md': '800px', // Medium screens (default)
       'lg': '1024px', // Large screens (default)
       'xl': '1280px', // Extra-large screens
       // You can define your own breakpoints as needed

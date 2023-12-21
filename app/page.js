@@ -8,6 +8,7 @@ import ServicesCard from './components/servicesCard/ServicesCard'
 import { AiOutlineClockCircle } from "react-icons/ai";
 import { AiOutlineCreditCard } from "react-icons/ai";
 import { SlBasket } from "react-icons/sl";
+import CustomersCard from './components/customersCard/CustomersCard'
 
 export default function Home() {
   return (
@@ -73,7 +74,7 @@ export default function Home() {
 
 
 
-<div className='grid lg:grid-cols-2 px-20 bg-[#F9F9F7] '>
+<div className='grid lg:grid-cols-2 px-20 pb-8 bg-[#F9F9F7] '>
 <div className='flex pt-10'>
 <div><Image className='w-[431px] h-[600px] pr-5' src='/chef.svg' width={60} height={60} /></div>
 <div className='pt-20'> 
@@ -105,8 +106,6 @@ export default function Home() {
 <p className='pl-6'>Delivery within 30 minutes</p>
 </div>
 
-<div></div>
-
 </div>
 
 
@@ -115,8 +114,28 @@ export default function Home() {
 <div>
 </div>
 
+</div>
+
+
+
+<div>
+<h1 className='text-4xl font-semibold pt-10 text-center font-serif mx-5'>What Our Customers Say</h1>
+<div className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 gap-5 pt-5 mx-5 pb-20'>
+
+<div><CustomersCard title=' "The Best Rasturant" ' pera=" Last night, we dined at place and were simply blown away. From the moment we stepped in, we were enveloped in an inviting atmosphere and greeted with warm smiles." first="Umar Farooq" second="Web Developer" src="/umar.jpg" /></div>
+
+<div><CustomersCard title=' "Simply Delicious" ' pera=" Place exceeded my expectations on all fronts. The ambiance was cozy and relaxed, making it a perfect venue for our anniversary dinner. Each dish was prepared and beautifully presented." first="Umar Farooq" second="Batsman" src="/umar.jpg" /></div>
+
+<div><CustomersCard title=' "The Best Rasturant" ' pera=" Last night, we dined at place and were simply blown away. From the moment we stepped in, we were enveloped in an inviting atmosphere and greeted with warm smiles." first="Umar Farooq" second="Web Developer" src="/farooq.jpg" /></div>
+</div>
+
+
 
 </div>
+
+
+
+
 
 
   </div>
