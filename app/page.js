@@ -11,6 +11,7 @@ import { SlBasket } from "react-icons/sl";
 import CustomersCard from './components/customersCard/CustomersCard'
 import BlogCard from './components/blogCard/BlogCard'
 import BlogSecondCard from './components/blogSecondCard/BlogSecondCard'
+import Footer from './components/footer/Footer'
 
 export default function Home() {
   return (
@@ -165,6 +166,9 @@ export default function Home() {
 
         </div>
       </div>
+
+
+      <Footer/>
 
 
 

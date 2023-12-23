@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function ServicesCard(props) {
   return (
     <div className='hover:text-white hover:rounded-xl hover:bg-black hover:scale-105 mb-16  '>
-    <Image className='w-[306px] h-[360px] object-cover  md:flex md:m-auto sm:flex sm:m-auto lg:m-0 rounded-tl-xl rounded-tr-xl' src={props.src} width={120}  height={120}   />
+    <Image className='w-[306px] h-[360px] object-cover  md:flex md:m-auto sm:flex sm:m-auto lg:m-0 rounded-tl-xl rounded-tr-xl sm:w-full' src={props.src} width={120}  height={120}   />
     <h1 className='font-2xl font-bold pt-5 ml-1 lg:text-start md:text-center  sm:text-center'>{props.title}</h1>
     <p className='pt-2 ml-2 pb-3 sm:flex sm:m-auto  lg:text-start  sm:text-center'>{props.pera}</p>
     </div>
