@@ -136,7 +136,7 @@ export default function Home() {
 
 
       <div className='bg-[#F9F9F7] px-20'>
-        <h1 className='text-4xl font-serif font-semibold pt-20'>Our Blog & Articles</h1>
+        <h1 className='text-4xl font-serif font-semibold pt-20 pb-10'>Our Blog & Articles</h1>
         <div className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-5 pb-16'>
         <div>
         <BlogCard src="/burger.png" title='The secret tips & tricks to prepare a perfect burger & pizza for our customers'
