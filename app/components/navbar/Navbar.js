@@ -21,15 +21,17 @@ export default function Navbar() {
 
     </div>
     <ul className={`navbar-ul responsive ${show ? 'responsive-show' : 'responsive-hide'}`}>
-    <li className='navbar-li'>Home</li>
-    <li className='navbar-li'>About</li>
-    <li className='navbar-li'>Menu</li>
-    <li className='navbar-li'>Pages</li>
-    <li className='navbar-li'>Contact</li>
+    <li className='navbar-li'><Link href='/'>Home</Link> </li>
+    <li className='navbar-li'><Link href='/about'>About</Link> </li>
+    <li className='navbar-li'><Link href='/menu'>Menu</Link> </li>
+    <li className='navbar-li'><Link href='/blog'>Pages</Link> </li>
+    <li className='navbar-li'><Link href='/contact'>Contact</Link> </li>
     </ul>
    
     <div className={`navbar-btn responsive ${show ? 'btn-show' : 'btn-hide'}`}>
+    <Link href='/book'>
     <Button title='Book A Table'/>
+    </Link>
     </div>
     <button  onClick={toggleMenu}><HiMenu  className='text-3xl  menu'/></button>
     </div>

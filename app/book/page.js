@@ -12,7 +12,7 @@ export default function page() {
     <h1 className='text-7xl font-serif  text-center pt-20'>Book A Table</h1>
     <p className='text-center pt-8 pb-[100px]'>We consider all the drivers of change gives you the components <br />  you need to change to create a truly happens.</p>
     </div>
-    <div className='bg-white mx-96  px-5 sticky top-10 mb-10 '>
+    <div className='bg-white mx-96  px-5 sticky top-10 mb-10 shadow-xl'>
     <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-5 py-4 pt-8 '>
     <div>
     <label htmlFor="date" className='text-xl font-bold'>Date</label><br />
@@ -38,7 +38,7 @@ export default function page() {
     </div>
     <div className=''>
     <label htmlFor="person" className='text-xl font-bold'>Total Person</label><br />
-    <select id="person"  className='border-2 border-black w-full rounded-2xl px-5 py-1 mt-1'>
+    <select id="person"  className='border-2 border-black w-full rounded-2xl px-4 py-1 mt-1'>
     <option value="usa">1 Person</option>
     <option value="uk">2 Person</option>
     <option value="canada">More Than 5 Persons</option>
@@ -46,7 +46,7 @@ export default function page() {
   </select>
     </div>
 
-    <button className='w-full  bg-[#AD343E] rounded-3xl py-1 text-white font-bold my-5 mt-10 mb-10 hover:scale-[1.05]'>Book A Table</button>
+    <button className='w-full  bg-[#AD343E] rounded-3xl py-2 text-white font-bold my-5 mt-10 mb-10 hover:scale-[1.05]'>Book A Table</button>
     
     </div>
     <div className='bg-[url("/Map.png")] h-[500px] w-full'>
