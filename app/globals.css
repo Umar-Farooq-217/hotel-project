@@ -8,6 +8,11 @@
     font-size: 12px;
     font-weight: bold;
 }
+.menuBack{
+    background-image: url('../public/back.jpg');
+    min-height: 500px;
+    background-size:cover
+}
 
 .navbar-li:hover{
     background-color: #A23841;
