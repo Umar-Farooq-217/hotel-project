@@ -77,34 +77,34 @@ export default function Home() {
 
 
 
-      <div className='grid lg:grid-cols-2 px-20 pb-8 bg-[#F9F9F7] '>
-        <div className='flex pt-10'>
-          <div><Image className='w-[431px] h-[600px] pr-5' src='/chef.svg' width={60} height={60} /></div>
-          <div className='pt-20'>
-            <div className='rounded-xl'><Image className='w-[290px] h-[290px]  object-cover rounded-xl mb-5' src='/kabab.svg' width={40} height={40} /></div>
+      <div className='grid lg:grid-cols-2 px-20 pb-8 sm:pb-0 bg-[#F9F9F7] '>
+        <div className='flex pt-10 sm:pt-2'>
+          <div><Image className='w-[431px] h-[600px] pr-5 sm:w-[431px] sm:h-[800px]' src='/chef.svg' width={90} height={120} /></div>
+          <div className='pt-20 sm:pt-5'>
+            <div className='rounded-xl'><Image className='w-[290px] h-[290px] sm:w-[250px] sm:h-[200px] sm:mt-48 object-cover rounded-xl mb-5' src='/kabab.svg' width={40} height={40} /></div>
             <div><Image className='w-[290px] h-[190px] object-cover rounded-xl' src='/soop.svg' width={40} height={40} /></div>
           </div>
         </div>
         <div>
-          <h1 className='text-4xl pt-48 ml-24  font-serif'>Fastest Food  <br />Delivery in City</h1>
-          <p className='ml-24 pt-5 pb-5'>Our visual designer lets you quickly and of drag a down your way to customapps for both keep desktop. </p>
+          <h1 className='text-4xl pt-48 ml-24 sm:ml-0 font-serif '>Fastest Food  <br />Delivery in City</h1>
+          <p className='ml-24 sm:ml-0 pt-5 pb-5'>Our visual designer lets you quickly and of drag a down your way to customapps for both keep desktop. </p>
 
           <div>
 
             <div className='flex py-3'>
-              <div className='bg-[#A23841] flex justify-center items-center rounded-full w-6 ml-24 '><AiOutlineClockCircle className='text-white' />
+              <div className='bg-[#A23841] flex justify-center items-center rounded-full w-6 ml-24 sm:ml-0 '><AiOutlineClockCircle className='text-white' />
               </div>
               <p className='pl-6'>Delivery within 30 minutes</p>
             </div>
 
             <div className='flex py-3'>
-              <div className='bg-[#A23841] flex justify-center items-center rounded-full w-6 ml-24 '><AiOutlineCreditCard className='text-white' />
+              <div className='bg-[#A23841] flex justify-center items-center rounded-full w-6 ml-24 sm:ml-0 '><AiOutlineCreditCard className='text-white' />
               </div>
               <p className='pl-6'>Best offer & Prices</p>
             </div>
 
             <div className='flex py-3'>
-              <div className='bg-[#A23841] flex justify-center items-center rounded-full w-6 ml-24 '><SlBasket className='text-white' />
+              <div className='bg-[#A23841] flex justify-center items-center rounded-full w-6 ml-24 sm:ml-0 '><SlBasket className='text-white' />
               </div>
               <p className='pl-6'>Delivery within 30 minutes</p>
             </div>

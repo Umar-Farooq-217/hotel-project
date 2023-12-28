@@ -23,7 +23,7 @@ class ImageSlider extends Component {
       <Slider {...settings}>
         {images.map((image, index) => (
           <div key={index}>
-            <img src={image} alt={`Slide ${index}`} />
+            <img className='w-96 rounded-2xl flex m-auto h-64 my-10' src={image} alt={`Slide ${index}`} />
           </div>
         ))}
       </Slider>

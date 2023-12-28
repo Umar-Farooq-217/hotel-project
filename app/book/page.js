@@ -5,14 +5,14 @@ import Footer from '../components/footer/Footer';
 
 export default function page() {
   return (
-    <div className='bg-[#F9F9F7]'>
+    <div className='bg-[#F9F9F7] lg:bg-blue-500 md:bg-red-500'>
     <FirstNav/>
     <Navbar/>
     <div>
     <h1 className='text-7xl font-serif  text-center pt-20'>Book A Table</h1>
     <p className='text-center pt-8 pb-[100px]'>We consider all the drivers of change gives you the components <br />  you need to change to create a truly happens.</p>
     </div>
-    <div className='bg-white mx-96  px-5 sticky top-10 mb-10 shadow-xl'>
+    <div className='bg-white lg:mx-96 md:mx-28 sm:mx-5  px-5 sticky top-10 mb-10 shadow-xl'>
     <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-5 py-4 pt-8 '>
     <div>
     <label htmlFor="date" className='text-xl font-bold'>Date</label><br />
