@@ -47,6 +47,7 @@ export default function page() {
   <BlogSecondCard src="/three.png" title='7 delicious cheesecake recipes you can prepare'/>
   <BlogSecondCard src="/four.png" title='7 delicious cheesecake recipes you can prepare'/>
   </div>
+  <div></div>
     <Footer/>
     </div>
   )
