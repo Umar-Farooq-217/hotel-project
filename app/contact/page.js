@@ -13,8 +13,8 @@ export default function page() {
     <p className='text-center text-sm pt-5'>We consider all the drivers of change gives you the components you need <br /> to change to create a truly happens.</p>
     </div>
 
-    <div className='bg-white mx-96 mt-10 shadow-xl rounded-xl mb-14'>
-    <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1  gap-5 px-3 pt-5'>
+    <div className='bg-white lg:mx-92 md:mx-64 mt-10 shadow-xl rounded-xl mb-14'>
+    <div className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1  gap-5 px-3 pt-5'>
     <div>
     <label htmlFor="date" className='text-xl font-bold'>Name</label><br />
     <input type="text" id='date' placeholder='Enter Your Name'  className='border-2 border-gray-200 w-full py-2
