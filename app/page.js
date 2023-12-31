@@ -12,6 +12,7 @@ import CustomersCard from './components/customersCard/CustomersCard'
 import BlogCard from './components/blogCard/BlogCard'
 import BlogSecondCard from './components/blogSecondCard/BlogSecondCard'
 import Footer from './components/footer/Footer'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -26,8 +27,8 @@ export default function Home() {
           <p className='text-center'>Discover delectable cuisine and unforgettable moments <br /> in our welcoming, culinary haven.</p>
 
           <div className='flex justify-center items-center mt-8'>
-            <div className='mx-5'><Button title='Book A Table' /></div>
-            <div className='mx-5'><Button title='Explore Menu' /></div>
+            <div className='mx-5'><Link href='/book'><Button title='Book A Table' /></Link></div>
+            <div className='mx-5'><Link href='/menu'><Button title='Explore Menu' /></Link></div>
 
           </div>
         </div>
@@ -51,7 +52,7 @@ export default function Home() {
         <div className='md:flex md:m-auto'>
           <Image className='w-[599px] h-[556px] rounded-lg' src='/Image.svg' width={100} height={100} />
         </div>
-        <div className='lg:ml-32 md:ml-32 mt-20 md:text-center md:ml-0 sm:text-center sm:ml-3'>
+        <div className='lg:ml-32 md:ml-32 mt-20 md:text-center  sm:text-center sm:ml-3'>
           <h1 className='text-4xl font-bold font-serif  '>We provide healthy food for your family</h1>
           <p className='font-semibold pt-5'>Our story began with a vision to create a unique dining experience that merges fine dining, exceptional service, and a vibrant ambiance. Rooted in city's rich culinary culture, we aim to honor our local roots while infusing a global palate.</p>
           <p className='pt-5'>At place, we believe that dining is not just about food, but also about the overall experience. Our staff, renowned for their warmth and dedication, strives to make every visit an unforgettable event</p>
@@ -86,7 +87,7 @@ export default function Home() {
           </div>
         </div>
         <div className='lg:ml-24 md:ml-24 sm:ml-0 '>
-          <h1 className='text-4xl pt-48 lg:ml-24 md:ml-24 sm:ml-0 font-serif '>Fastest Food  <br />Delivery in City</h1>
+          <h1 className='text-4xl lg:pt-64 lg:ml-24 md:ml-24 sm:ml-0 font-serif '>Fastest Food  <br />Delivery in City</h1>
           <p className='ml-24 sm:ml-0 pt-5 pb-5'>Our visual designer lets you quickly and of drag a down your way to customapps for both keep desktop. </p>
 
           <div>
@@ -122,7 +123,7 @@ export default function Home() {
 
 
       <div>
-        <h1 className='text-4xl font-semibold pt-10 text-center font-serif mx-5'>What Our Customers Say</h1>
+        <h1 className='text-4xl font-semibold pt-10 lg:py-16 text-center font-serif mx-5'>What Our Customers Say</h1>
         <div className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 gap-5 pt-5 mx-5 pb-20'>
 
           <div><CustomersCard title=' "The Best Rasturant" ' pera=" Last night, we dined at place and were simply blown away. From the moment we stepped in, we were enveloped in an inviting atmosphere and greeted with warm smiles." first="Umar Farooq" second="Web Developer" src="/umar.jpg" /></div>
