@@ -51,7 +51,6 @@ export default function page() {
     </div>
     <div className='bg-[url("/Map.png")] h-[500px] w-full'>
 
-    
     </div>
     <Footer/>
     
