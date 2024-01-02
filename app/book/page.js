@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../components/navbar/Navbar'
 import FirstNav from './../components/first-nav/First-Nav';
 import Footer from '../components/footer/Footer';
+import ReactRotatingText from 'react-rotating-text';
 
 export default function page() {
   return (
@@ -26,6 +27,7 @@ export default function page() {
     <option value="canada">8:50 PM </option>
     <option value="canada">10:00 PM</option></select>
     </div>
+    <div></div>
     <div>
     <label htmlFor="name" className='text-xl font-bold'>Name</label><br />
     <input type="text" id='name' className='border-2 border-black w-full rounded-2xl px-5 py-1 mt-1'/>
@@ -50,7 +52,9 @@ export default function page() {
     
     </div>
     <div className='bg-[url("/Map.png")] h-[500px] w-full'>
-
+   
+ 
+    <ReactRotatingText items={['text1', 'text2', 'text3']} />
     </div>
     <Footer/>
     
