@@ -17,11 +17,8 @@
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^4.12.0",
-    "react-rotating-text": "^1.4.1",
     "react-slick": "^0.29.0",
-    "react-typed": "^1.2.0",
-    "slick-carousel": "^1.8.1",
-    "typewriter-effect": "^2.21.0"
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
