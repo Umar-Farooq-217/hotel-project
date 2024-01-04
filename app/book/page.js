@@ -2,15 +2,16 @@ import React from 'react'
 import Navbar from '../components/navbar/Navbar'
 import FirstNav from './../components/first-nav/First-Nav';
 import Footer from '../components/footer/Footer';
-import ReactRotatingText from 'react-rotating-text';
-
+import Typewriter from '../components/typeWriter/TypeWriter';
 export default function page() {
+  const textArray = ['Please Book A Table', 'Give us a chance for show our discipline', 'Thanks for Booking'];
   return (
     <div className='bg-[#F9F9F7] '>
     <FirstNav/>
     <Navbar/>
     <div>
-    <h1 className='text-7xl font-serif  text-center pt-20'>Book A Table</h1>
+    <h1 className=' text-red-800  text-center pt-20'><Typewriter textArray={textArray}  />
+    </h1>
     <p className='text-center pt-8 pb-[100px]'>We consider all the drivers of change gives you the components <br />  you need to change to create a truly happens.</p>
     </div>
     <div className='bg-white lg:mx-96 md:mx-28 sm:mx-5  px-5  mb-10 shadow-xl'>
@@ -27,7 +28,7 @@ export default function page() {
     <option value="canada">8:50 PM </option>
     <option value="canada">10:00 PM</option></select>
     </div>
-    <div></div>
+    
     <div>
     <label htmlFor="name" className='text-xl font-bold'>Name</label><br />
     <input type="text" id='name' className='border-2 border-black w-full rounded-2xl px-5 py-1 mt-1'/>
@@ -51,10 +52,11 @@ export default function page() {
     <button className='w-full  bg-[#AD343E] rounded-3xl py-2 text-white font-bold my-5 mt-10 mb-10 hover:scale-[1.05]'>Book A Table</button>
     
     </div>
+
+
+
     <div className='bg-[url("/Map.png")] h-[500px] w-full'>
-   
  
-    <ReactRotatingText items={['text1', 'text2', 'text3']} />
     </div>
     <Footer/>
     

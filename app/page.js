@@ -13,8 +13,11 @@ import BlogCard from './components/blogCard/BlogCard'
 import BlogSecondCard from './components/blogSecondCard/BlogSecondCard'
 import Footer from './components/footer/Footer'
 import Link from 'next/link'
+import Typewriter from './components/typeWriter/TypeWriter';
 
 export default function Home() {
+  const textArray = ['We are providing best taste and Quality', 'We are providing healthy food ', 'Thanks for visiting our resturant'];
+
   return (
     <div>
       <FirstNav />
@@ -22,7 +25,7 @@ export default function Home() {
 
       <div className='first flex justify-center pt-72 m-auto '>
         <div>
-          <h1 className='text-[96px] font-[300] font-[Charmonman] text-center'>Best Food for <br /> Your Taste</h1>
+          <h1 className='text-[96px]  mb-20 text-center text-red-800'><Typewriter textArray={textArray}  /></h1>
 
           <p className='text-center'>Discover delectable cuisine and unforgettable moments <br /> in our welcoming, culinary haven.</p>
 
